@@ -1,6 +1,9 @@
 package structural.proxy_exercise_01;
 
-public interface MediaStreamingService {
+public class MediaStreamingService implements StreamingService {
 
-    void display();
+    @Override
+    public void display() {
+        System.out.println("Displaying videos now");
+    }
 }

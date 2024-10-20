@@ -1,6 +1,6 @@
 package structural.proxy_exercise_01;
 
-public enum UserType {
+public enum UserRole {
     CUSTOMER,
     ADMIN
 }
